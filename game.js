@@ -109,8 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionTwoId = cardsChosenId[1];
         if (optionOneId == optionTwoId) {
             cards[optionOneId].setAttribute('src', './images/cover.png');
-            cards[optionTwoId].setAttribute('src', '../Images/cover.png');
-            return
         } else if (cardsChosen[0] === cardsChosen[1]) {
             cards[optionOneId].setAttribute('src', './images/white.png');
             cards[optionTwoId].setAttribute('src', './images/white.png');
